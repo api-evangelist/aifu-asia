@@ -66,7 +66,7 @@
 
 艾赋 AIFU 提供基于私有化部署的 AI 客服解决方案，帮助企业在 10 分钟内构建能够使用自有产品资料和话术的智能客服。用户可将产品手册、FAQ、历史客服话术导入系统，AI 即可自动回答常见咨询，并在无法回答时转接人工。服务无需收集联系方式或信用卡信息，支持免费试用，数据完全留在企业内部，确保信息安全。通过简单的代码嵌入，可快速集成至官网、公众号或微信平台，实现高效、可靠的客户交互。
 
-**Areas:** Company · AI · Customer Service · Private Deployment · Chinese
+**Areas:** Company · Artificial Intelligence · Customer Service · Private Deployment · Chinese
 
 ## 艾赋 AIFU on APIs.io
 
@@ -131,9 +131,9 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aifu Asia Agentic Access](https://apis.io/agentic-access/aifu-asia/aifu-asia-agentic-access/)
+- [艾赋 AIFU Agentic Access](https://apis.io/agentic-access/aifu-asia/aifu-asia-agentic-access/)
 
-#### JSON Schema (9)
+#### JSON Schema (13)
 
 The data models the API reads and writes.
 
@@ -141,11 +141,15 @@ The data models the API reads and writes.
 - [CardClaimConfirm](https://apis.io/schemas/aifu-asia/aifu-asia-card-claim-confirm/)
 - [ChatRequest](https://apis.io/schemas/aifu-asia/aifu-asia-chat-request/)
 - [ChatResponse](https://apis.io/schemas/aifu-asia/aifu-asia-chat-response/)
+- [CreateCheckoutRequest](https://apis.io/schemas/aifu-asia/aifu-asia-create-checkout-request/)
+- [CreateCheckoutResponse](https://apis.io/schemas/aifu-asia/aifu-asia-create-checkout-response/)
+- [CreateReportCheckoutRequest](https://apis.io/schemas/aifu-asia/aifu-asia-create-report-checkout-request/)
 - [HireRequest](https://apis.io/schemas/aifu-asia/aifu-asia-hire-request/)
 - [LeadIn](https://apis.io/schemas/aifu-asia/aifu-asia-lead-in/)
 - [PostJobRequest](https://apis.io/schemas/aifu-asia/aifu-asia-post-job-request/)
 - [RegisterRequest](https://apis.io/schemas/aifu-asia/aifu-asia-register-request/)
 - [UploadIn](https://apis.io/schemas/aifu-asia/aifu-asia-upload-in/)
+- [WaitlistRequest](https://apis.io/schemas/aifu-asia/aifu-asia-waitlist-request/)
 
 #### JSON-LD (1)
 
@@ -163,7 +167,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aifu Asia Domain Security](https://apis.io/security/aifu-asia/aifu-asia-domain-security/)
+- [艾赋 AIFU Domain Security](https://apis.io/security/aifu-asia/aifu-asia-domain-security/)
 
 ## Where to find this API
 
@@ -174,7 +178,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aifu-asia/](https://apis.io/providers/aifu-asia/).
+**Kin Score 20.7** — emerging · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 51.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 28.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 4.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aifu-asia/](https://apis.io/providers/aifu-asia/).
 
 ## How this profile is made
 
